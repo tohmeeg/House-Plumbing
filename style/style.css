@@ -185,3 +185,175 @@ body {
     border-radius: 3px;
     justify-content: center;
 }
+.our-services-section {
+    width: 100%;
+}
+.our-services-section .our-services {
+    width: 80%;
+    margin: 0 0 0 7rem;
+}
+.our-services .our-services-heading {
+      text-align: left;
+      font-size: 2.125rem;
+      line-height: 1.1;
+      margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin: 60px 0px 0 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.our-services .our-services-row {
+     display: flex;
+     flex-direction: row;
+     text-align: center;
+}
+.our-services .our-services-row1,
+.our-services .our-services-row2,
+.our-services .our-services-row3{
+    padding: 30px;
+}
+.handy-man  {
+    margin: 10px 0;
+}
+.plumbing-section {
+   width: 100%;
+   background-color: #104e92;
+   color: white;
+}
+.plumbing-section .plumbing {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    margin: 0 0 0 150px;
+}
+.plumbing .plumbing-text {
+   width: 50%;
+   border: 15px solid transparent;
+   text-align: left;
+   padding: 30px;
+   margin: 70px 0;
+}
+.plumbing-text .plumbing-about-us {
+    letter-spacing: 2px;
+    word-wrap: break-word;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.plumbing-text .plumbing-plumbing {
+    line-height: 1;
+    margin: 10px 0 0 0;
+    word-wrap: break-word;
+    font-weight: 400;
+    font-size: 90px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.plumbing-text .plumbing-services {
+    font-weight: bold;
+    font-size: 90px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.plumb-pic1 {
+    width: 50%;
+    border: 15px;
+    margin: 15px;
+}
+.plumbing .plumbing-pic {
+   width: 50%;
+   margin: 80px 0;
+}
+.plumbing-pic-row1 {
+    display: flex;
+    flex-direction: row;
+}
+.plumbing-pic-row2 {
+    display: flex;
+    flex-direction: row;
+}
+.to-do-section {
+    text-align: center;
+    width: 100%;
+}
+.to-do-section .to-do {
+    width: 60%;
+    margin: 35px 0 45px 265px;
+    display: flex;
+    flex-direction: column;
+}
+.to-do .to-do-list{
+    padding: 30px;
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 1.1;
+    word-wrap: break-word;
+}
+.to-do .to-do-mission{
+    font-size: 1.875rem;
+    font-weight: 300;
+    margin: 13px 0 0 0;
+    word-wrap: break-word;
+}
+.to-do-section .to-do-button {
+     display: flex;
+     text-align: center;
+     justify-content: center;
+     margin-top: 20px;
+}
+.to-do-section .to-do-red {
+    color: white;
+    background-color: #e71a23;
+    letter-spacing: 1px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    border-style: unset;
+    padding: 16px 36px;
+    border-radius: 3px;
+    justify-content: center;
+    margin: 0 12px 0 0;
+}
+.to-do-section .to-do-white {
+    background-color: white;
+    letter-spacing: 1px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    border-style: solid;
+    padding: 16px 44px;
+    border-radius: 3px;
+    justify-content: center;
+}
+.grey-area-section {
+      width: 100%;
+      background-color: #333333;
+      color: white;
+}
+.grey-area-section .grey-area{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin: 25px 0;
+}
+.grey-area .grey-area-text .sample-text {
+    margin: 49px auto;
+    font-size: 0.875rem;
+    word-wrap: break-word;
+}
+.grey-area .link{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 1em;
+    font-size: 0.8rem;
+    margin: 30px auto;
+}
+.link .real-link {
+     color: #abcff7;
+}
+.link .link-text {
+    margin: 0 5px;
+}
