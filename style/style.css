@@ -18,6 +18,11 @@ body {
     justify-content: center;
     gap: 1100px;
 }
+@media ( max-width: 768px ) {
+    .row {
+        gap: 587px;
+    }
+    }
 .house-repair {
     width: 100%;
     height: 120vh;
@@ -29,6 +34,11 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+@media ( max-width: 768px ) {
+    .house-repair {
+        
+    }
+    }
 .house-repair .house-repair-text {
     padding: 150px 0 0 0;
     text-align: left;
@@ -56,6 +66,22 @@ body {
     border-width: 5px;
     font-size: 1rem;
     width: 600px;
+}
+.house-repair-text .white-sect {
+  display: flex;
+  flex-direction: row; 
+  margin-top: 25px;
+  width: 100%;
+  margin-right: 40px;
+}
+.white-sect .whitesect1,
+.white-sect .whitesect2,
+.white-sect .whitesect3 {
+        padding: 30px 30px 30px 0;
+        text-align: center;
+        justify-content: left;
+        font-weight: lighter;
+        margin: 0 50px 10px 0;
 }
 .book-now {
     text-align: center;
@@ -207,14 +233,37 @@ body {
      display: flex;
      flex-direction: row;
      text-align: center;
+     margin-bottom: 100px;
 }
 .our-services .our-services-row1,
 .our-services .our-services-row2,
 .our-services .our-services-row3{
     padding: 30px;
+    text-align: left;
+    justify-content: left;
+}
+.handy-man-text {
+    font-size: 1.1rem;
+    font-style: italic;
+    font-weight: lighter;
 }
 .handy-man  {
     margin: 10px 0;
+}
+.red-sect {
+    background-color: #e71a23;
+    color: white;
+    border-radius: 50%;
+    width: 35%;
+    height: 40%;
+    text-align: center;
+}
+
+.red-sect .red-image {
+    margin: auto auto;
+    width: 70px;
+    height: 70px;
+    margin-top: 12px;
 }
 .plumbing-section {
    width: 100%;
